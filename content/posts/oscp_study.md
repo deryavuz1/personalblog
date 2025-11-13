@@ -1,5 +1,6 @@
 +++
 date = '2025-11-12T15:44:59-06:00'
+draft = true
 title = 'My OSCP Journey'
 +++
 
