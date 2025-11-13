@@ -1,6 +1,5 @@
 +++
 date = '2025-11-12T14:15:59-06:00'
-draft = true
 title = 'Building a CPTC Practice Range Environment'
 +++
 ## Introduction
