@@ -80,3 +80,9 @@ I made “day-of” checklists for Windows, Linux, and each common service. They
 ### General study notes
 
 Lastly, I had a whole section that was basically my personal study track: things like info gathering, web attacks, vulnerability scanning, port tunneling, BOFs, AD attacks, Metasploit usage, file transfers, etc. Not super detailed writeups, but instead they were a list of accumulated knowledge including commands, reminders, and patterns I kept using over and over again.
+
+## Wrapping up...
+
+Looking back, I’m just grateful I didn’t quit. The amount of stress, sleepless nights, and self-doubt was insane, but it taught me so much - as these are methodologies I am hoping to utilize as I work for my next certificates. 
+
+If you’re on the OSCP path right now, please be patient with yourself. Progress is slow, and that’s normal. You will 100% get there.
