@@ -1,6 +1,6 @@
 +++
 date = '2025-11-12T15:44:59-06:00'
-draft = true
+draft = false
 title = 'My OSCP Journey'
 +++
 
@@ -71,3 +71,12 @@ It made patterns really easy to recognize. If I saw a certain service or behavio
 <img src="/machines.png" alt="Example excerpt of how I stored machine notes." width="600">
 
 I also had separate pages for each major topic: Windows & Linux enumeration and privilege escalation, OWASP 10 web application vulnerability guides such as SQL injection, file inclusion, useful payloads, reverse shells, Active Directory stuff, etc. The idea was just to have everything I commonly forgot written in one place so I wasn’t panicking and trying to remember syntax at 3 AM.
+
+
+### Day-of checklists
+
+I made “day-of” checklists for Windows, Linux, and each common service. They were simple but incredibly helpful when exam stress makes you forget the most basic things. It kept me from skipping steps and falling into rabbit holes too early.
+
+### General study notes
+
+Lastly, I had a whole section that was basically my personal study track: things like info gathering, web attacks, vulnerability scanning, port tunneling, BOFs, AD attacks, Metasploit usage, file transfers, etc. Not super detailed writeups, but instead they were a list of accumulated knowledge including commands, reminders, and patterns I kept using over and over again.
