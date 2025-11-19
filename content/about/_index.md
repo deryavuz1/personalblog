@@ -68,4 +68,3 @@ GPA: **3.14**
 ## Contact
 
 - **Email:** deryayavuz7@gmail.com  
-- **LinkedIn:** https://linkedin.com/in/DeryaYavuz
