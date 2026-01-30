@@ -1,6 +1,6 @@
 +++
 date = '2025-11-12T14:15:59-06:00'
-draft = true
+draft = false
 title = 'Building a CPTC Practice Range Environment'
 +++
 ## Introduction
@@ -74,3 +74,7 @@ After we planned our initial setup on how to allocate machines, our workflow to 
 No matter how simple it sounded on paper - setting this range up took a little less than two months (I honestly blame MS Exchange for the installation times).
 
 Here is our near-complete network diagram for the lab environment:
+
+![Mock competition network diagram that changes many, many times to count..](/netdiag.png "Our network diagram that changed many, many times")
+
+<img src="/netdiag" alt="Example excerpt of how I stored machine notes." width="600">
