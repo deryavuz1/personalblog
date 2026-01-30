@@ -43,6 +43,12 @@ Represented and advocated for the international student community, collaborated 
 
 ---
 
+# Content & Media
+
+- [A Conversation with Senior Security Engineer, Derya Yavuz - Hacker Factory Podcast with Phil Wylie](https://open.spotify.com/episode/68HHpBC9DWhzz1lJ65mXuo?si=M9p-1NBYQkOQKT2_hTYndQ)
+
+--
+
 ## Certifications
 
 - **OSCP** - Offensive Security Certified Professional  
