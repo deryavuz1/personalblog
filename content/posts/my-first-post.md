@@ -1,5 +1,5 @@
 +++
-date = '2025-01-30T14:15:59-06:00'
+date = '2026-01-30T14:15:59-06:00'
 draft = false
 title = 'Building a CPTC Practice Range Environment'
 +++
