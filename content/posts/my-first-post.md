@@ -1,5 +1,5 @@
 +++
-date = '2025-11-12T14:15:59-06:00'
+date = '2025-01-30T14:15:59-06:00'
 draft = false
 title = 'Building a CPTC Practice Range Environment'
 +++
@@ -20,7 +20,7 @@ This year’s theme was to conduct a penetration test on a **Cruise Ship**! From
 
 We then began carving out a timeline for our build:
 
-![Our trusted whiteborad rough timeline.](../../assets/timeline.png)
+![Our trusted whiteborad rough timeline.](/timeline.png)
 
 We chose the name `EAGLECRUISES` as our imaginary company to simulate. 
 
