@@ -24,7 +24,7 @@ Personal website for my portfolio & blog posts.
   [params.profileMode]
    enabled = true
    title = "Derya Yavuz Ionescu"
-   subtitle = "Personal website for my portfolio & blog posts.."
+   subtitle = "Personal website for my portfolio & blog posts."
    showPosts = true   
 
   [[params.socialIcons]]
