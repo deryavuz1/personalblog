@@ -3,6 +3,11 @@ About Me
 I am a security engineer and software developer with experience across offensive security, cloud infrastructure, and platform engineering. My work bridges deep technical execution with leadership in high-stakes cybersecurity competitions, consistently focusing on problem-solving, clarity under pressure, and building resilient systems.
 
 Professional Experience
+Red Team Security Engineer - Toyota Motors North America
+May 2026 - Present
+
+Currently working on performing covert opereations, end-to-end red/purple team engagements, social engineering assessments, as well as adversary emulation. Collaborating actively with Detection and Response + SOC teams to improve internal security posture.
+
 Software Engineering Intern — Confluent
 
 June 2025 – August 2025
