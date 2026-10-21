@@ -1,0 +1,5 @@
+<div class="skills-list">
+  {{- range hugo.Data.skills }}
+  <p><strong>{{ .name }}:</strong> {{ .items }}</p>
+  {{- end }}
+</div>

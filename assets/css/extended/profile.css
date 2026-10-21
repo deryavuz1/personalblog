@@ -1,0 +1,4 @@
+.profile img[alt="Togepi pixel art"] {
+    image-rendering: pixelated;
+    border-radius: 0;
+}

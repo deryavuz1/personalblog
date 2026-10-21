@@ -13,33 +13,37 @@ Offensive security engineer and red team lead with experience across enterprise,
 
 *May 2026 - Present · On contract from TTS*
 
-- Lead red team operations across Active Directory, Entra ID, and cloud environments, directing adversary emulation, social engineering, and purple team execution. Turn threat intelligence and defensive concerns into MITRE ATT&CK-aligned plans with defined attack objectives, technique sequences, payload requirements, and detection checks.
-- Designed and ran a two-hour ransomware emulation for a Toyota subsidiary, partnering with threat intelligence to model BlackBasta tactics, techniques, and procedures (TTPs). Executed initial access, directory discovery, persistence, lateral movement, data staging, exfiltration, and encryption behaviors through manual commands and payloads. Explained the attack sequence and observed defensive gaps during live execution with more than 70 security stakeholders.
-- Partner with the security operations center (SOC) and incident response (IR) teams on incident investigations and purple team engagements. During live emulation, compare the operator's execution sequence with Microsoft Sentinel telemetry and analyst observations to identify missed behaviors, delayed events, and correlation gaps.
-- Work with SOC engineers to develop behavioral detection heuristics that connect directory reconnaissance, native Windows execution, and ransomware-adjacent activity across an attack sequence. Supply the commands, timing, and execution context needed to build and test detection logic during live exercises. The defensive teams developed and tested 12 new alerts during the ransomware engagement.
-- Converted the campaign into reusable SCYTHE plans executed by emulation agents on domain-joined endpoints. Preserved the TTP sequence so defenders could replay attack behaviors, inspect the resulting telemetry, and test detection changes, reducing repeated requests for manual retesting.
-- Lead social engineering campaigns and develop custom macro payloads for initial-access simulation. Coordinate scenario preparation, payload execution, and command-and-control (C2) staging with the broader emulation plan to test the progression from user interaction to execution and defensive visibility.
-- Develop offensive tooling and payloads in Python and C#, and extend the internal C2 framework in Python, C#, and JavaScript. Added HTTPS/TLS support to its communication paths and refined Windows CMD and Bash execution into a terminal-style workflow for interacting with beacons.
+- Lead red team operations across Active Directory, Entra ID, and cloud environments. Translate threat intelligence and defensive concerns into MITRE ATT&CK-aligned emulation plans with attack objectives, technique dependencies, payload requirements, and telemetry validation criteria.
+- Design and execute adversary emulation and purple team engagements spanning initial access, discovery, persistence, lateral movement, and exfiltration. Develop and adapt payloads and malware in Python and C# to reproduce adversary TTPs and test endpoint defenses. Chain discovery, data staging, and exfiltration techniques (e.g., ADSI enumeration, Robocopy staging, and C2 transfers).
+- Partner with SOC and IR on investigations and detection engineering, correlating operator commands, execution timing, Microsoft Sentinel telemetry, and analyst observations. Develop behavioral heuristics across reconnaissance, persistence, native Windows execution, and data movement; identify missing events, telemetry delays, and correlation gaps.
+- Build reusable SCYTHE emulation plans with ordered TTP sequences and agent execution on domain-joined endpoints. Replay campaigns to validate telemetry collection and detection changes, reducing repeated manual execution.
+- Lead social engineering campaigns and develop custom macro payloads for initial access. Coordinate payload delivery and C2 staging to evaluate endpoint controls, payload execution, and SOC visibility.
+- Expand an internal, homegrown C2 platform's communication, command execution, and beacon tasking capabilities.
 
 ### Confluent · Software Engineering Intern
 
 *June 2025 - August 2025 · Cloud Infrastructure & Platform, Events team*
 
-- Shipped a Terraform provider in Go for a Kubernetes-derived platform, delivering a project that had spent more than a year in the backlog. Implemented resource schemas, Kubernetes CustomResourceDefinition (CRD) support, and create, read, update, and delete operations across most resource types. Mapped declarative configuration to resource-management API calls and responses to Terraform state, handling resource identity, lifecycle behavior, and API errors.
-- Integrated the provider into Semaphore CI/CD and delivered it through the internal provider store, replacing manual CLI provisioning with repeatable, declarative resource management.
+- Shipped a Terraform provider in Go for a Kubernetes-derived resource-management platform, implementing resource schemas, CRD support, and CRUD across most resource types. Translated declarative configuration into API requests and mapped responses to Terraform state, handling resource identity, lifecycle behavior, and API errors.
+- Integrated the provider into Semaphore CI/CD and delivered it through the internal provider store, replacing manual CLI provisioning with declarative Terraform workflows.
 
 ### Praetorian · Senior Security Engineer
 
 *June 2021 - May 2024*
 
-- Led security engagements for Fortune 100 clients across enterprise networks, web applications, APIs, and cloud environments. Owned technical delivery from assessment planning and hands-on testing through reporting, client discussions, and remediation guidance.
-- Conducted red team and assumed-breach engagements to demonstrate attack paths from a compromised account or endpoint to sensitive systems. Combined reconnaissance, credential attacks, lateral movement, and privilege escalation to test how identity and infrastructure controls held up against an attacker.
-- Designed and executed phishing, vishing, and other social engineering campaigns to establish initial access for red team engagements. Combined tailored pretexts, supporting materials, payload delivery, and sustained phone interactions to obtain credentials or code execution and advance engagement objectives.
-- Performed internal and external penetration tests across enterprise networks and internet-facing infrastructure. Mapped exposed services, tested network segmentation, and exploited configuration weaknesses to identify entry points and demonstrate access across trust boundaries.
-- Identified and exploited Active Directory weaknesses involving access-control permissions, Kerberos delegation, certificate services, and SCCM. Chained credential exposure and excessive privileges into access to sensitive infrastructure, then worked with system owners to address the underlying permission and configuration weaknesses.
-- Assessed web applications and REST/GraphQL APIs for authentication, authorization, and business-logic flaws. Combined static code analysis and vulnerability scanners with manual testing in Burp Suite and Postman. Validated findings, demonstrated exploitability, and gave engineering teams reproducible evidence and remediation guidance.
-- Mentored junior consultants through assessment planning, hands-on testing, and technical reporting on client engagements. Reviewed testing decisions and evidence with them so they could develop findings and contribute independently to later assessments.
-- Published three technical articles: [How to Leverage DFSCoerce](https://www.praetorian.com/blog/how-to-leverage-dfscoerce/), [Writing Great IR Playbooks](https://www.praetorian.com/blog/writing-great-ir-playbooks/), and [Building an Evidence Wiki](https://www.praetorian.com/blog/building-an-evidence-wiki/). Brought authentication-coercion research into the team's assessment workflow through coauthored guidance, internal presentations, and support on client engagements.
+- Led security engagements for Fortune 100 clients across enterprise networks, web applications, APIs, and cloud environments. Owned technical delivery from scoping and assessment planning through hands-on testing, reporting, client discussions, and remediation guidance.
+- Conducted red team, assumed-breach, and internal and external penetration tests, mapping exposed services and configuration weaknesses. Chained reconnaissance, credential attacks, privilege escalation, and lateral movement to test segmentation, identity controls, and access to sensitive systems.
+- Designed and executed phishing, vishing, and tailored social engineering campaigns to establish initial access. Developed pretexts, supporting materials, and payload-delivery workflows, using direct phone interactions to obtain credentials or code execution.
+- Exploited Active Directory attack paths involving ACL abuse, Kerberos delegation, Active Directory Certificate Services (AD CS) misconfigurations, authentication coercion, and SCCM credential exposure. Used BloodHound, Impacket, Rubeus, and Certipy to map privilege relationships and chain identity weaknesses into privilege escalation and lateral movement.
+- Assessed web applications and REST/GraphQL APIs for authentication bypass, broken access control, and business-logic vulnerabilities. Combined source-code review, static analysis with Semgrep, and vulnerability scanning with manual request manipulation in Burp Suite and Postman to validate exploitability and trace vulnerable code paths.
+- Mentored junior consultants in assessment planning, testing methodology, evidence collection, and technical reporting. Reviewed testing decisions and findings to help them contribute independently to later client engagements.
+- Published [How to Leverage DFSCoerce](https://www.praetorian.com/blog/how-to-leverage-dfscoerce/), [Writing Great IR Playbooks](https://www.praetorian.com/blog/writing-great-ir-playbooks/), and [Building an Evidence Wiki](https://www.praetorian.com/blog/building-an-evidence-wiki/). Integrated authentication-coercion research into assessment workflows through coauthored guidance, internal presentations, and support on client engagements.
+
+---
+
+## Skills
+
+{{< skills >}}
 
 ---
 
@@ -54,7 +58,7 @@ Offensive security engineer and red team lead with experience across enterprise,
 *Bachelor of Science in Engineering, Computer Engineering*
 
 - Awarded the **Rachleff Scholarship** for undergraduate research.
-- Served as **Undergraduate Chair of the International Student Advisory Board** from 2017 to 2021. Represented international students, worked with university leadership, and supported community initiatives.
+- **Undergraduate Chair, International Student Advisory Board** (2017-2021), representing international students to university leadership.
 
 ---
 
@@ -76,9 +80,9 @@ Offensive security engineer and red team lead with experience across enterprise,
 
 *Team Captain · 2025-2026 seasons · 3rd place in 2025*
 
-- Built mock CCDC ranges on Proxmox with Windows and Linux hosts, segmented networks, and vulnerable configurations across identity, DNS, mail, web, and database services.
-- Trained teammates in service deployment, firewall rules, permission auditing, patching, and host and network log analysis. Practiced containment and recovery while checking service dependencies and availability.
-- Assigned system ownership, ran hands-on exercises, and cross-trained teammates across host administration, networking, threat hunting, and incident response.
+- Built Proxmox CCDC ranges with segmented Windows/Linux networks and vulnerable identity, DNS, mail, web, and database services.
+- Trained teammates in service deployment, firewall rules, permissions, patching, and host/network log analysis, validating dependencies and availability during containment and recovery.
+- Assigned system ownership and cross-trained teammates in host administration, networking, threat hunting, and incident response.
 
 [Read the Southwest CCDC win announcement on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7441655399725948928/).
 
@@ -86,9 +90,9 @@ Offensive security engineer and red team lead with experience across enterprise,
 
 *Team Captain · UTSA · 2025-2026 season*
 
-- Led engagement scoping, test planning, coverage tracking, and client communication. Assigned testing responsibilities and consolidated findings into a coordinated assessment.
-- Built a Proxmox range with collaborators using routed subnets, VM templates, and snapshots across corporate, guest, simulated cloud, and operational technology networks. Integrated directory services, payment APIs, web applications, and PLC/Modbus simulations with credential exposure and weak permissions for repeatable attack-path exercises.
-- Taught open-source intelligence (OSINT), reconnaissance, Active Directory, and web/API testing. Reviewed exploitation evidence and coached reports and briefings that connected findings to business impact and remediation.
+- Led scoping, test planning, task assignment, coverage tracking, and client communication.
+- Built a Proxmox range with collaborators: segmented networks, VM templates, snapshots, directory services, payment APIs, web applications, and PLC/Modbus simulations. Seeded credential exposure and weak permissions for attack-path exercises.
+- Taught OSINT, reconnaissance, AD and web/API testing; reviewed exploit evidence, remediation, client reports, and briefings.
 
 [Read how we built the CPTC practice range]({{< relref "posts/my-first-post.md" >}}).
 
@@ -96,17 +100,13 @@ Offensive security engineer and red team lead with experience across enterprise,
 
 ## Writing & research
 
-At Praetorian, I helped turn technical research and assessment practices into resources other security teams could use.
-
 - [How to Leverage DFSCoerce](https://www.praetorian.com/blog/how-to-leverage-dfscoerce/): Authentication-coercion research.
 - [Writing Great IR Playbooks](https://www.praetorian.com/blog/writing-great-ir-playbooks/): Practical guidance for incident response playbooks.
 - [Building an Evidence Wiki](https://www.praetorian.com/blog/building-an-evidence-wiki/): Security evidence management and documentation.
 
 ## Conversations
 
-Joined Phil Wylie on the Hacker Factory podcast for a conversation about my work as a security engineer.
-
-[Listen to A Conversation with Senior Security Engineer, Derya Yavuz](https://open.spotify.com/episode/68HHpBC9DWhzz1lJ65mXuo).
+[Hacker Factory with Phil Wylie: A Conversation with Derya Yavuz](https://open.spotify.com/episode/68HHpBC9DWhzz1lJ65mXuo).
 
 ---
 
@@ -115,7 +115,3 @@ Joined Phil Wylie on the Hacker Factory podcast for a conversation about my work
 - **OSCP** · Offensive Security Certified Professional
 - **AZ-500** · Microsoft Certified: Azure Security Engineer Associate
 - **AZ-104** · Microsoft Certified: Azure Administrator Associate
-
-## Contact
-
-[Email](mailto:deryayavuz7@gmail.com) · [LinkedIn](https://www.linkedin.com/in/derya-yavuz/) · [GitHub](https://github.com/deryavuz1)

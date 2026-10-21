@@ -1,0 +1,17 @@
+- name: Red team operations
+  items: Adversary emulation, assumed breach, network penetration testing, MITRE ATT&CK, OSINT, phishing/vishing, CI/CD supply chain attacks, C2 (Sliver, Cobalt Strike, custom)
+
+- name: Active Directory & identity
+  items: Active Directory, Entra ID, Kerberos, NTLM, LDAP, AD CS, SCCM, credential attacks, privilege escalation, lateral movement
+
+- name: Application security
+  items: Web/API testing, OWASP Top 10, REST/GraphQL, authentication/authorization, business logic, code review, SAST/DAST
+
+- name: Purple teaming & detection
+  items: SIEM/EDR validation, detection engineering, threat hunting, incident investigation, Microsoft Sentinel, SCYTHE
+
+- name: Languages
+  items: Python, C#, Go, JavaScript, Bash
+
+- name: Cloud & infrastructure
+  items: AWS, Azure, Kubernetes, Terraform, IAM, cloud networking, Proxmox

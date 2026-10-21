@@ -1,0 +1,15 @@
+{{- /* Publish fixed URLs so the profile, icons, and social metadata share one source. */ -}}
+{{- $source := resources.Get "images/togepi-source.png" -}}
+{{- $square := $source.Crop "192x192 Bottom" -}}
+{{- $profile := resources.Copy "images/togepi-profile.png" $square -}}
+{{- $og := resources.Copy "images/togepi-og.png" ($square.Resize "768x768 nearestNeighbor png") -}}
+{{- $icon16 := resources.Copy "images/togepi-16.png" ($square.Resize "16x16 nearestNeighbor png") -}}
+{{- $icon32 := resources.Copy "images/togepi-32.png" ($square.Resize "32x32 nearestNeighbor png") -}}
+{{- $touch := resources.Copy "images/togepi-180.png" ($square.Resize "180x180 nearestNeighbor png") -}}
+{{- return (dict
+  "profile" $profile.RelPermalink
+  "og" $og.RelPermalink
+  "icon16" $icon16.RelPermalink
+  "icon32" $icon32.RelPermalink
+  "touch" $touch.RelPermalink
+) -}}

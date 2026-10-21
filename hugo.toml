@@ -24,11 +24,31 @@ Personal website for my portfolio & blog posts.
   # Avoid the legacy site.Author fallback in PaperMod's RSS template.
   author = "Derya Yavuz Ionescu"
   hideAuthor = true
+  description = "Offensive security engineer and red team lead with experience across enterprise, application, and cloud security."
+  images = ["/images/togepi-og.png"]
+
+  [params.assets]
+   favicon = "/images/togepi-32.png"
+   favicon16x16 = "/images/togepi-16.png"
+   favicon32x32 = "/images/togepi-32.png"
+   apple_touch_icon = "/images/togepi-180.png"
+
+  [params.footer]
+   text = "[Togepi artwork credits](/images/togepi-credits.txt)"
+
   [params.profileMode]
    enabled = true
    title = "Derya Yavuz Ionescu"
    subtitle = "Personal website for my portfolio & blog posts."
+   imageUrl = "/images/togepi-profile.png"
+   imageTitle = "Togepi pixel art"
+   imageWidth = 64
+   imageHeight = 64
    showPosts = true   
+
+  [[params.socialIcons]]
+  name = "email"
+  url  = "mailto:deryayavuz7@gmail.com"
 
   [[params.socialIcons]]
   name = "linkedin"

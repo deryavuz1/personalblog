@@ -1,0 +1,8 @@
+/* Compact skill groups follow the page's existing typography. */
+.post-content .skills-list p {
+    margin: 0 0 12px;
+}
+
+.post-content .skills-list p:last-child {
+    margin-bottom: 0;
+}
