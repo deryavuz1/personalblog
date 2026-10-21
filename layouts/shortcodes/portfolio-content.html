@@ -1,0 +1,4 @@
+{{- /* Keep the existing portfolio URL in sync with the About page. */ -}}
+{{- with site.GetPage "/about" -}}
+  {{ .Content }}
+{{- end -}}

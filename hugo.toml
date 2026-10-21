@@ -21,6 +21,9 @@ Personal website for my portfolio & blog posts.
   weight = 2
 
 [params]
+  # Avoid the legacy site.Author fallback in PaperMod's RSS template.
+  author = "Derya Yavuz Ionescu"
+  hideAuthor = true
   [params.profileMode]
    enabled = true
    title = "Derya Yavuz Ionescu"
