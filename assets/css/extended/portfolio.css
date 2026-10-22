@@ -1,0 +1,23 @@
+/* Scope resume spacing to the portfolio, including its legacy URL. */
+.post-content:has(.resume-download) > ul > li + li {
+    margin-top: 18px;
+}
+
+.post-content:has(.resume-download) > h3 {
+    margin-top: 44px;
+    margin-bottom: 10px;
+}
+
+.post-content:has(.resume-download) > h2 + h3 {
+    margin-top: 24px;
+}
+
+/* Keep role and date together, with dates visually secondary. */
+.post-content:has(.resume-download) > h3 + p em {
+    font-size: 16px;
+    color: var(--secondary);
+}
+
+.post-content:has(.resume-download) > ul > li > strong {
+    color: var(--primary);
+}
